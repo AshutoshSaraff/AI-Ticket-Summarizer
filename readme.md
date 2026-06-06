@@ -2,13 +2,7 @@
 
 ## Overview
 
-AI-powered support ticket analysis platform that extracts:
-
-- Summary
-- Priority
-- Category
-- Platform
-- Investigation Steps
+AI-powered support ticket analysis system that automatically extracts key insights from customer support requests using Google's Gemini API.
 
 ## Features
 
@@ -16,33 +10,52 @@ AI-powered support ticket analysis platform that extracts:
 - Priority Classification
 - Category Detection
 - Platform Identification
-- AI Investigation Guidance
+- AI-Powered Investigation Recommendations
+- Structured JSON Processing
 
 ## Tech Stack
 
 - Python
 - Streamlit
-- Gemini API
+- Google Gemini API
+- Object-Oriented Programming (OOP)
 - JSON
-- OOP
 
 ## Architecture
 
 User
- ↓
-Streamlit
- ↓
+↓
+Streamlit UI
+↓
 Ticket Processor
- ↓
+↓
 Gemini API
- ↓
-Structured JSON
- ↓
-Storage
+↓
+Structured Analysis
+↓
+Result Dashboard
+
+## Sample Workflow
+
+1. User submits support ticket.
+2. AI analyzes issue.
+3. System extracts:
+   - Summary
+   - Priority
+   - Category
+   - Platform
+   - Investigation Steps
+4. Results displayed in dashboard.
 
 ## Screenshots
 
-(Add screenshots)
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Analysis Result
+
+![Analysis Result](screenshots/analysis-result.png)
 
 ## Installation
 
